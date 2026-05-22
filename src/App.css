@@ -1,38 +1,19 @@
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  background: #ffffff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+html {
+  scroll-behavior: smooth;
 }
 
-.header-inner {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 1rem 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f8fafc;
+  color: #111827;
 }
 
-.brand {
-  font-size: 1.125rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+* {
+  box-sizing: border-box;
 }
 
-.site-nav {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.site-nav a {
-  text-decoration: none;
-  color: #111111;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.site-nav a:hover {
-  color: #2563eb;
+img {
+  display: block;
+  max-width: 100%;
 }
