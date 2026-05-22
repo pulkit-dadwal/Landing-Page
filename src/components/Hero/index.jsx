@@ -1,4 +1,5 @@
 import './styles.css'
+import hero from '../../assets/hero.png'
 
 function Hero() {
   return (
@@ -14,9 +15,7 @@ function Hero() {
       </div>
       <div className="hero-visual">
         <div className="hero-card">
-          <span>Fast.</span>
-          <span>Responsive.</span>
-          <span>Professional.</span>
+          <img src={hero} alt="Hero visual" />
         </div>
       </div>
     </section>
