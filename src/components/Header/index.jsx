@@ -7,7 +7,7 @@ function Header() {
         <div className="brand">Landing Page</div>
         <nav className="site-nav">
           <a href="#hero">Home</a>
-          <a href="#about">About</a>
+          <a href="#about">About Me</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
